@@ -382,7 +382,6 @@ SET (COOKIES
     Taste
     Temper
     Textbook
-    Themata
     Theology
     Theory
     Timing
