@@ -1,0 +1,94 @@
+Another good but boring software company trying to be too big for its 
+shoes and pretending to be broad-spectrum-disruptive 
+                 --  FT 
+%
+Software engineering is in many ways a very pathetic field, because so 
+much of it is anecdotal and based on people’s judgments or even people’s 
+aesthetic judgments 
+                 --  Peter Weinberger 
+%
+I wrote to its author asking if GNU could use it. He responded 
+derisively, stating that the university was free but the compiler was 
+not 
+                 --  Richard Stallman 
+%
+But if you ask Perl its opinion, it will advise you on matters of taste 
+                 --  Larry Wall 
+%
+we had accidentally chosen a cache for our database [MongoDB] 
+                 --  Sarah Mei 
+%
+A glut of stu­dents trained in the ba­sics of com­puter sci­ence, 
+with­out the abil­ity or am­bi­tion to ex­pand the cur­rent state of 
+tech­nol­ogy, leads to a glut of en­tre­pre­neurs cre­at­ing 
+un­dif­fer­en­ti­ated so­cial-me­dia apps 
+                 --  Mark Bissell 
+%
+Once we lib­er­ate our­selves from the men­tal cage of think­ing of AI 
+as akin to our­selves, we can rec­og­nize that it’s just an­other pile 
+of math that can trans­form one kind of in­put into an­other – that is, 
+soft­ware 
+                 --  WSJ 
+%
+Benchmarks tend to be a measure of configuration competence, rather than 
+of server quality 
+                 --  httpd docs 
+%
+mod_rewrite should be considered a last resort, when other alternatives 
+are found wanting. Using it when there are simpler alternatives leads to 
+configurations which are confusing, fragile, and hard to maintain. 
+Understanding what other alternatives are available is a very important 
+step towards mod_rewrite mastery 
+                 --  Rich Bowen 
+%
+be­hav­ioral ads aren’t nec­es­sary to pro­vide a so­cial net­work 
+                 --  WSJ 
+%
+The amount of misinformation about selectors is larger than correct 
+cross-browser information. The chance of someone doing the right thing 
+[optimizing selectors] is pretty low 
+                 --  Benjamin Poulain 
+%
+It has nothing to do with dinosaurs. Good taste doesn't go out of style 
+… in many ways C is much superior to C++ (and even more so C#) in both 
+its portability and in its availability of interfaces and low-level 
+support.… One of the great strengths of C is that it doesn't make you 
+think of your program as anything high-level 
+                 --  Linus Torvalds 
+%
+C++ is in that inconvenient spot where it doesn't help make things 
+simple enough to be truly usable for prototyping or simple GUI 
+programming, and yet isn't the lean system programming language that C 
+is that actively encourages you to use simple and direct constructs 
+                 --  Linus Torvalds 
+%
+C++ is a horrible language. It's made more horrible by the fact that a 
+lot of substandard programmers use it, to the point where it's much much 
+easier to generate total and utter crap with it. Quite frankly, even if 
+the choice of C were to do *nothing* but keep the C++ programmers out, 
+that in itself would be a huge reason to use C 
+                 --  Linus Torvalds 
+%
+I agree with the underlying sentiment of the RFC – I only rejected it 
+for the entertainment value 
+                 --  Larry Wall 
+%
+Great code works synergistically with the compiler, not against it 
+                 --  Randall Hyde 
+%
+Are you saying that this decision is so important we don’t have time to 
+think about it? 
+                 --  Dennis Ritchie 
+%
+When I started looking at the source code to ld, I was horrified to 
+discover that it was all a hand-written parser for a complex linker 
+language derived from System V Unix … I got so frustrated that weekly 
+I’d rush into my boss’s office in tears saying I couldn’t do it. She’d 
+reassure me and I’d go stare at the code some more.… Some things I am 
+good at are making things more consistent and making things more 
+user-friendly. Cleanup work. I’d done that a lot on other GNU utilities 
+for the FSF.… It seems like this happens at most of the jobs I’ve had. I 
+end up redefining the job description to be things I’m good at, and 
+everyone’s pretty happy with how it turns out 
+                 --  David MacKenzie 
+%
