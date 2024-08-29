@@ -10,7 +10,7 @@
 > ```bash
 > $ tar xvJf fortuna-3.22.0.tar.xz && cd fortuna-3.22.0
 > $ mkdir build && cd build
-> $ cmake ..
+> $ cmake ..  # requires recode-devel, libcmocka-devel
 > $ make && make install
 > $ alias fortuna=/usr/local/games/fortune  # ~/.bashrc
 > $ fortuna
