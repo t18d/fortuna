@@ -22,7 +22,7 @@
 > $ rm /usr/share/games/fortune/*.dat
 > $ tar xvJf fortuna-devel.tar.xz && cd fortuna-devel
 > $ cp * /usr/share/games/fortune
-> $ alias fortuna=/usr/bin/fortune  # ~/.bashrc
+> $ echo alias fortuna=/usr/bin/fortune >> ~/.bashrc && source ~/.bashrc
 > $ fortuna
 > ```
 
