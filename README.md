@@ -8,11 +8,10 @@
 > **Method 1:**
 > 
 > ```bash
-> $ tar xvJf fortuna-3.22.0.tar.xz && cd fortuna-3.22.0
+> $ tar xvJf fortuna.tar.xz && cd fortuna
 > $ mkdir build && cd build
 > $ cmake ..  # requires recode-devel, libcmocka-devel
 > $ make && make install
-> $ alias fortuna=/usr/local/games/fortune  # ~/.bashrc
 > $ fortuna
 > ```
 > **Method 2:**
@@ -21,7 +20,7 @@
 >
 > ```bash
 > $ rm /usr/share/games/fortune/*.dat
-> $ tar xvJf fortuna-devel-3.22.0.tar.xz && cd fortuna-devel-3.22.0
+> $ tar xvJf fortuna-devel.tar.xz && cd fortuna-devel
 > $ cp * /usr/share/games/fortune
 > $ alias fortuna=/usr/bin/fortune  # ~/.bashrc
 > $ fortuna
