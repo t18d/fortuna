@@ -198,6 +198,13 @@ my_exe(
     "bin"
 )
 
+macro(install_symlink filepath sympath)
+    install(CODE "execute_process(COMMAND ${CMAKE_COMMAND} -E create_symlink ${filepath} ${sympath})")
+    install(CODE "message(\"-- Created symlink: ${sympath} -> ${filepath}\")")
+endmacro(install_symlink)
+
+install_symlink("${CMAKE_INSTALL_PREFIX}/games/fortune" "${CMAKE_INSTALL_PREFIX}/bin/fortuna")
+
 SET (_my_man_page_dir "${CMAKE_CURRENT_BINARY_DIR}/manpages")
 SET (_my_man_page "${_my_man_page_dir}/fortune.6")
 SET (_my_man_gen "${CMAKE_CURRENT_SOURCE_DIR}/fortune/process-fortune-man-template.pl")
