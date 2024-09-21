@@ -1,0 +1,51 @@
+rinutils - A C11 / gnu11 utilities C library
+============================================
+Shlomi Fish <shlomif@cpan.org>
+:Date: 2018-10-07
+:Revision: $Id$
+
+[id="intro"]
+Introduction
+------------
+
+This is a set of C headers containing macros and static functions that
+are expected to work on https://en.wikipedia.org/wiki/Unix-like[Unix-like systems]
+and https://en.wikipedia.org/wiki/Microsoft_Windows[MS Windows] that have
+been extracted from https://www.shlomifish.org/[Shlomi Fish´s projects].
+
+Note that we publish releases source tarballs: https://github.com/shlomif/rinutils/tags .
+
+These headers include:
+
+. sizeof-aware wrappers for https://en.cppreference.com/w/c/memory/malloc[malloc()/realloc()]
+
+. +COUNT()+ and +LAST()+ macros.
+
+. +DLLEXPORT+ symbols-modifiers.
+
+. +likely()+ and +unlikely()+ CPU branch-prediction hints (see https://stackoverflow.com/questions/109710[Stack Overflow question]).
+
+. +long long+ sprintf()-formats
+
+. +min()+ and +max()+
+
+. +rinutils/portable_time.h+ for cross-platform time querying.
+
+. Some string utilities as inline functions.
+
+. +typeof_wrap.h+ for https://en.cppreference.com/w/cpp/language/auto[C++-"auto"]-like macros.
+
+. +GCC_UNUSED+ for silencing warnings.
+
+. +rinutils/rin_cmocka.h+ for reducing https://cmocka.org/[cmocka’s] boilerplate.
+
+**Note:** we only support the https://gcc.gnu.org/onlinedocs/gcc/Standards.html[`-std=gnu11`]
+dialect as supported by https://en.wikipedia.org/wiki/GNU_Compiler_Collection[GCC],
+https://en.wikipedia.org/wiki/Clang[clang] and compatible compilers. Other compilers
+are not supported.
+
+[id="license"]
+License
+-------
+
+This code is licensed under the https://en.wikipedia.org/wiki/MIT_License#Variants[MIT/Expat license] .

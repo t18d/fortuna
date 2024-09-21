@@ -1,0 +1,56 @@
+rinutils' News File
+===================
+Shlomi Fish <shlomif@cpan.org>
+:Date: 2022-05-19
+:Revision: $Id$
+
+0.10.2       ( 27 Apr 2023 )
+----------------------------
+
+* Exclude .ninja files from trailing space check
+* Refactoring and minor build-fixes.
+
+0.10.1       ( 19 May 2022 )
+----------------------------
+
+* Add GitHub actions' CI.
+* Fix https://github.com/shlomif/rinutils/issues/5 ( "pkg-config file is broken when CMAKE_INSTALL_INCLUDEDIR is absolute")
+
+0.10.0       ( 06 Sep 2021 )
+----------------------------
+
+* Fix the filenames in the comments of +**.h+ and add SPDX identifiers.
+* Add -DINSTALL_TO_DATADIR=... in CMakeLists.txt "Install libdir files to the architecture independent datadir (e.g for Debian)"
+* Minor README.asciidoc reformatting.
+* Thanks to pert from +#debian-mentoring+ .
+
+0.8.0       ( 30 Nov 2020 )
+----------------------------
+
+* Enhance and expand the README.
+** https://lists.debian.org/debian-devel-games/2020/03/msg00008.html .
+
+0.6.0       ( 24 Sep 2020 )
+----------------------------
+
+* Made the WITH_TEST_SUITE option off by default to avoid depending on cmocka
+( https://github.com/shlomif/fortune-mod/issues/44 )
+
+* Remove unused code and other cleanups.
+
+0.4.1       ( 20 Jul 2020 )
+----------------------------
+
+* Minor cleanups: convert comments to +//+.
+
+0.4.0       ( 27 Mar 2020 )
+----------------------------
+
+* Convert the cmake build sys to +INCLUDE(GNUInstallDirs)+ - thanks to asturm.
+
+* Add Travis-CI testing.
+
+0.2.0       ( 17 Nov 2019 )
+----------------------------
+
+* First release.

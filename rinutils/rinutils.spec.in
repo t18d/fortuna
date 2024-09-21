@@ -1,0 +1,69 @@
+%define debug_package %{nil}
+Name: rinutils
+Version: @VERSION@
+Release: 1
+License: MIT
+Group: Development/C
+Source: rinutils-%{version}.tar.xz
+URL: https://github.com/shlomif/rinutils/
+Requires: librinutils-devel
+Summary: Shlomi Fish's gnu11 C Library of Random headers
+BuildRequires: cmake
+BuildRequires: perl(Carp)
+BuildRequires: perl(Cwd)
+BuildRequires: perl(Data::Dumper)
+BuildRequires: perl(Env::Path)
+BuildRequires: perl(File::Path)
+BuildRequires: perl(File::Spec)
+BuildRequires: perl(Inline)
+BuildRequires: perl(Inline::C)
+BuildRequires: perl(List::MoreUtils)
+BuildRequires: perl(Path::Tiny)
+BuildRequires: perl(Test::Differences)
+BuildRequires: perl(Test::More)
+BuildRequires: perl(Test::RunValgrind)
+BuildRequires: perl(base)
+BuildRequires: perl(lib)
+BuildRequires: perl(strict)
+BuildRequires: perl(warnings)
+BuildRequires: perl-devel
+BuildRequires: python3
+BuildRequires: valgrind
+
+%description
+Shlomi Fish's gnu11 C Library of Random headers.
+
+%package -n librinutils-devel
+Summary: Shlomi Fish's gnu11 C Library of Random headers
+Group: Development/C
+
+%description -n librinutils-devel
+Shlomi Fish's gnu11 C Library of Random headers.
+
+%prep
+%setup
+
+%build
+%cmake -DLOCALE_INSTALL_DIR=%{_datadir}/locale -DLIB_INSTALL_DIR=%{_libdir}
+%make_build
+
+%install
+rm -rf %buildroot
+%make_install -C build
+
+%files
+%defattr(-,root,root)
+%doc README.asciidoc NEWS.asciidoc
+
+%files -n librinutils-devel
+%defattr(-,root,root)
+/usr/include/rinutils/*.h
+%{_libdir}/Rinutils/cmake/*.cmake
+%{_libdir}/pkgconfig/*.pc
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+%changelog
+* Sun Nov 17 2019 Shlomi Fish <shlomif@cpan.org> 0.1.1-1
+- First version.
