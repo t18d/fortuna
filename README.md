@@ -1,5 +1,5 @@
 # fortuna
-
+[![CodeQL Advanced](https://github.com/t18d/fortuna/actions/workflows/codeql.yml/badge.svg)](https://github.com/t18d/fortuna/actions/workflows/codeql.yml)
 - print a random commonplace
   - a binary-compatible downstream fork of Shlomi Fish's [fortune-mod](https://github.com/shlomif/fortune-mod)
 
