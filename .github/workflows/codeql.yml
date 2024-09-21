@@ -16,6 +16,7 @@ on:
     branches: [ "release" ]
   schedule:
     - cron: '23 22 * * 3'
+  workflow_dispatch:
 
 jobs:
   analyze:
